@@ -1,0 +1,22 @@
+body {
+    background-image: url("table");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    color:goldenrod;
+    text-align: center;
+}
+#message-el {
+    text-align: center;
+    color: white;
+}
+#cards-el {
+    text-align: center;
+    color: white;
+}
+#sum-el {
+    text-align: center;
+    color: white;
+}
