@@ -14,3 +14,25 @@ h1 {
 #message-el {
     font-style: italic;
 }
+button {
+    color: black;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px;
+    font-weight: bold;
+    /* border: none; */
+    border-radius: 5px;
+}
+#game-control {
+    padding-top: 20px;
+}
+#draw-button {
+    color: #016f32;
+}
+#end-button {
+    color: rgb(189, 44, 44);
+}
+.div-center {
+    display: flex;
+    justify-content: center;
+}

@@ -6,7 +6,19 @@
         <h1>Blackjack</h1>
         <p id="message-el">Do you want to play a round?</p>
         <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
+        <p id="sum-el">Sum: </p>
+        <button id="start-btn" onclick="startGame()">Start Game</button>
+        <div id="game-control">
+            <span>
+                <button id="draw-button" onclick="newCard()">Draw</button>
+            </span>
+            <span>
+                <button id="end-button" onclick="endTurn()">End Turn</button>
+            </span>
+        </div>
+        <div class="div-center">
+            <button id="again-btn" onclick="startGame()">Play Again</button>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
